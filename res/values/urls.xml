@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+	<!-- home ip address -->
+	<string name="base_uri">http://192.168.1.67:8080/medicine-alarm-system</string>
+	<!-- school ip address -->
+<!--     <string name="base_uri">http://198.37.23.226:8080/medicine-alarm-server</string>
+ -->    
+
+</resources>

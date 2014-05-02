@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout_setting_item1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView_setting_subtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView_setting_text"
+        android:layout_below="@+id/textView_setting_text"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall" 
+        tools:context=".TempSettingActivity"/>
+
+    <ImageView
+        android:id="@+id/imageView_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView_setting_subtext"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textView_setting_text"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_action_next_item"
+        tools:context=".TempSettingActivity" />
+
+    <TextView
+        android:id="@+id/textView_setting_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

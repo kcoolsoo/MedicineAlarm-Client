@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Medicine Alarm System</string>
+    <string name="welcome">Welcome</string>
+    <string name="name">Name</string>
+    <string name="yourpointis">Your point is</string>
+    <string name="points">0</string>
+    <string name="youaretaking">Your are taking</string>
+    <string name="medicine">medicine</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_alarm">AlarmActivity</string>
+    <string name="title_activity_alarm_alert">AlarmAlert</string>
+    <string name="stop_alarm">Stop</string>
+    <string name="action_sign_out">Sign Out</string>
+    <string name="title_activity_setting">Setting</string>
+    <string name="action_save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="alarmtype">Alarm type</string>
+
+    <string-array name="alarmtypes">
+        <item>Melody</item>
+        <item>Vibration</item>
+        <item>Vibration and melody</item>
+    </string-array>
+
+    <string name="ok">Ok</string>
+    <string name="ringermode">RINGER_MODE</string>
+    <string name="alarm_ontime">Yes, I did it on time.</string>
+    <string name="alarm_delayed">Yes, but it was delayed.</string>
+    <string name="alarm_no">No, I missed it.</string>
+    <string name="alarm_medicine_name">Medicine Name</string>
+    <string name="alarm_medicine_time">Time</string>
+    <string name="medicine_take_question">Did you Take the medicine?</string>
+    <string name="alarm_clock_image">Alarm Clock Image</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_medicine_time_list">Medicine Time List</string>
+    <string name="timelist">Medicine Time List</string>
+
+</resources>
